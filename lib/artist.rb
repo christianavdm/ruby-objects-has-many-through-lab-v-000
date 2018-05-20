@@ -24,11 +24,11 @@ class Artist
   end
   
   def songs 
-    songs = Song.all.select { |song| song.artist == self }
+    Song.all.select { |song| song.artist == self }
   end
   
   def genres 
-    self.songs = Song.all.select { |song| song.genre }
+    self.songs.select { |song| song.genre }
   end
   
 end
