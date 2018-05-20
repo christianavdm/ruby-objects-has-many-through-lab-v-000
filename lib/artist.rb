@@ -20,6 +20,7 @@ class Artist
     song = Song.new(name, genre)
     @songs << song
     song.artist = self
+    song
   end
   
   def songs 
