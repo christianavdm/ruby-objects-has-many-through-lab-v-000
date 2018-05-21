@@ -13,7 +13,6 @@ class Appointment
   
   def self.all
     @@all
-   # @@all.collect{|appointment| appointment.patient}
   end
 
 end
