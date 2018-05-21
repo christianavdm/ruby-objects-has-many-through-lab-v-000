@@ -11,7 +11,9 @@ class Appointment
     @@all << self
   end
   
-  def self.all 
-    @@all.collect{|appointment| appointment.patient}
+  def self.all
+    @@all
+   # @@all.collect{|appointment| appointment.patient}
   end
+
 end
