@@ -28,7 +28,6 @@ class Artist
   end
   
   def genres 
-    binding.pry
     self.songs.select
   end
   
