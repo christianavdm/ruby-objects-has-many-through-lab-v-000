@@ -28,7 +28,7 @@ class Artist
   end
   
   def genres 
-    self.songs.select { |song| binding.pry song.genre }
+    self.songs.select { binding.pry }
   end
   
 end
